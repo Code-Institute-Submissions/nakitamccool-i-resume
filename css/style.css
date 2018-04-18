@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:100,200,300,400,500,600|Oswald:100,200,300,400,500,600');
 
+/* added background color to body */
 body {
-    margin: 0;
-    Padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
 }
 
 .heading {
@@ -15,19 +18,21 @@ header {
 
 .logo {
     background-image: url("../images/ian.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 350px;
+    min-height: 360px;
     transition: all 0.5s;
     -o-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    margin: 0;
+    /* remove margin 0 */
+/*    margin: 0;*/
 }
 
 .bg-color-name-title {
     background-color: #1c1c1c;
+    padding-bottom: 10px;
 }
 
 .bg-color-three-reasons {
